@@ -32,27 +32,27 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain saveetha.ac.in
-![site](site.png)
+![site](assets/site.png)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain saveetha.ac.in
-![filetype](filetype.png)
+![filetype](assets/filetype.png)
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-![intext](intext.png)
+![intext](assets/intext.png)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-![inurl](inurl.png)
+![inurl](assets/inurl.png)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-![intitle](intitle.png)
+![intitle](assets/intitle.png)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
-![link](link.png)
+![link](assets/link.png)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
-![cache](cache.png)
+![cache](assets/cache.png)
 
  
 #DNS Enumeration
