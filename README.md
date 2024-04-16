@@ -66,11 +66,7 @@ Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
 
-
-
-
-
-
+![dnsrecon](dnsrecon.png)
 
 ##dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
@@ -86,6 +82,7 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![dnsenum](dnsenum.png)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
