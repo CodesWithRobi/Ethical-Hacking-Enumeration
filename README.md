@@ -90,8 +90,10 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 ![smptuserenum](assets/smptuserenum.png)
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
+![image](https://github.com/CodesWithRobi/Ethical-Hacking-Enumeration/assets/130537166/8c2833e5-83aa-404b-aa78-07854c30bcb9)
 
 select any username in the first column of the above file and check the same
+![Screenshot 2024-04-16 101939](https://github.com/CodesWithRobi/Ethical-Hacking-Enumeration/assets/130537166/0b273aba-743b-4441-a672-7852a7d7c801)
 
 
 #Telnet for smtp enumeration
@@ -99,8 +101,9 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-  
+ ## Output
+  ![image](https://github.com/CodesWithRobi/Ethical-Hacking-Enumeration/assets/130537166/19012015-2185-40d4-b60c-b381b37f114d)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -109,6 +112,7 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+![image](https://github.com/CodesWithRobi/Ethical-Hacking-Enumeration/assets/130537166/ab3a2ce9-eda6-408f-ab42-604455e87074)
 
 
 ## RESULT:
